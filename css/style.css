@@ -1,0 +1,545 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    max-height: 2000px;
+}
+.menu{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(50, 50, 50);
+    opacity: 0.95;
+    position: fixed;
+    z-index: 1;
+}
+.menu>nav{
+    width: 100%;
+    height: inherit;
+}
+.menu>nav>ul{
+    width: 100%;
+    height: inherit;
+    list-style-type: none;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.menu>nav>ul>li{
+    width: 100%;
+    height: inherit;
+    line-height: 60px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.one{
+    cursor: pointer;
+}
+.one>img{
+    position: relative;
+    left: 320px;
+    top: 90px;
+    
+}
+.one>h1{
+    font-size: 60px;
+    position: relative;
+    left: 860px;
+    bottom: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.firstp{
+    font-size: 30px;
+    position: relative;
+    left: 755px;
+    bottom: 340px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aone{
+    font-size: 23px;
+    text-decoration: none;
+    position: relative;
+    left: 812px;
+    bottom: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.atwo{
+    font-size: 23px;
+    text-decoration: none;
+    position: relative;
+    left: 845px;
+    bottom: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.two{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    bottom: 110px;
+    cursor: pointer;
+    
+}
+.two>img{
+    position: relative;
+    left: 580px;
+    top: 50px;
+}
+.ptwo{
+    font-size: 60px;
+    color: whitesmoke;
+    position: relative;
+    left: 330px;
+    bottom: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pthree{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    bottom: 410px;
+    left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.athree{
+
+        font-size: 23px;
+        text-decoration: none;
+        position: relative;
+        left: 307px;
+        font-family: Arial, Helvetica, sans-serif;
+        bottom: 420px;
+}
+.afour{
+        font-size: 23px;
+        text-decoration: none;
+        position: relative;
+        left: 327px;
+        bottom: 420px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+.three{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    position: relative;
+    bottom: 100px;
+    cursor: pointer;
+}
+.three>img{
+    position: relative;
+    left: 480px;
+    top: 202PX;
+    
+}
+h2{
+    font-size: 60px;
+    color: white;
+    position: relative;
+    bottom: 400px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.pfour{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    bottom: 440px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.afive{
+    font-size: 23px;
+    text-decoration: none;
+    position: relative;
+    left: 650px;
+    bottom: 455px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.asix{
+    font-size: 23px;
+    text-decoration: none;
+    position: relative;
+    left: 680px;
+    bottom: 455px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.four{
+    width: 50%;
+    height: 550px;
+    background-color: white;
+    position: relative;
+    bottom: 90px;
+    cursor: pointer;
+}
+.four>img{
+    position: relative;
+    left: 140px;
+    top: 170px;
+}
+h3{
+    font-size: 50px;
+    color: black;
+    position: relative;
+    bottom: 400px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pfive{
+    text-align: center;
+    font-size: 23px;
+    color: black;
+    position: relative;
+    bottom: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aseven{
+    font-size: 19px;
+    text-decoration: none;
+    position: relative;
+    left: 280px;
+    bottom: 460px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aeight{
+    font-size: 19px;
+    text-decoration: none;
+    position: relative;
+    left: 320px;
+    bottom: 460px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.five{
+    width: 50%;
+    height: 550px;
+    background-color: whitesmoke;
+    position: relative;
+    bottom: 640px;
+    left: 760px;
+    cursor: pointer;
+}
+.five>img{
+    position: relative;
+    left: 170px;
+    top: 230px;
+}
+.five>.apple{
+    font-size: 45px;
+    color: rgb(39, 39, 39);
+    position: relative;
+    left: 300px;
+    bottom: 290px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    font-size: 45px;
+    position: relative;
+    left: 340px;
+    bottom: 400px;
+    color: rgb(39, 39, 39);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.psix{
+    text-align: center;
+    position: relative;
+    left: 260px;
+    bottom: 450px;
+    font-size: 22px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pseven{
+    text-align: center;
+    position: relative;
+    left: 260px;
+    bottom: 450px;
+    font-size: 20px;
+    width: 250px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.anine{
+    font-size: 19px;
+    text-decoration: none;
+    position: relative;
+    left: 250px;
+    bottom: 460px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aten{
+    font-size: 19px;
+    text-decoration: none;
+    position: relative;
+    left: 300px;
+    bottom: 460px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.six{
+    width: 50%;
+    height: 550px;
+    background-color: white;
+    position: relative;
+    bottom: 637px;
+    background-color: rgb(255, 250, 245);
+    cursor: pointer;
+}
+.six>img{
+    position: relative;
+    left: 50px;
+    top: 220px;
+}
+.six>.apple2{
+    font-size: 30px;
+    color: black;
+    position: relative;
+    left: 280px;
+    bottom: 280px;
+}
+h5{
+    font-size: 30px;
+    position: relative;
+    left: 320px;
+    bottom: 360px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.peight{
+    text-align: center;
+    position: relative;
+    left: 240px;
+    bottom: 390px;
+    font-size: 20px;
+    width: 250px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pnine{
+    color: darkorange;
+    font-size: 15px;
+
+    position: relative;
+    bottom: 450px;
+    text-align: center;
+}
+.aeleven{
+    font-size: 15px;
+    text-decoration: none;
+    position: relative;
+    left: 290px;
+    bottom: 440px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.atwelve{
+    font-size: 15px;
+    text-decoration: none;
+    position: relative;
+    left: 310px;
+    bottom: 440px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.seven{
+width: 50%;
+height: 550px;
+background-color: white;
+position: relative;
+bottom: 1188px;
+left: 760px;
+background-color: black;
+cursor: pointer;
+}
+.seven>img{
+    position: relative;
+    left: 160px;
+    top: 190px;
+}
+h6{
+    font-size: 30px;
+    position: relative;
+    left: 340px;
+    bottom: 420px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pten{
+    text-align: center;
+    position: relative;
+    left: 255px;
+    bottom: 480px;
+    font-size: 15px;
+    width: 250px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.peleven{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+.a13{
+    font-size: 15px;
+    text-decoration: none;
+    position: relative;
+    left: 290px;
+    bottom: 510px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a14{
+    font-size: 15px;
+    text-decoration: none;
+    position: relative;
+    left: 310px;
+    bottom: 510px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.seven>.apple3{
+    font-size: 45px;
+    color: white;
+    position: relative;
+    left: 300px;
+    bottom: 310px;
+}
+.eight{
+    width: 50%;
+    height: 550px;
+    background-color: white;
+    position: relative;
+    bottom: 1188px;
+    left: 0px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    }
+    .eight>img{
+        position: relative;
+        left: 160px;
+        top: 190px;
+    }
+    .pq{
+        font-size: 40px;
+        position: relative;
+        left: 320px;
+        bottom: 400px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .pw{
+        text-align: center;
+        position: relative;
+        left: 255px;
+        bottom: 430px;
+        font-size: 18px;
+        width: 250px;
+        color: black;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .peleven{
+        font-size: 20px;
+        color: white;
+        position: relative;
+        bottom: 500px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    
+    }
+    .a15{
+        font-size: 15px;
+        text-decoration: none;
+        position: relative;
+        left: 270px;
+        bottom: 430px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .a16{
+        font-size: 15px;
+        text-decoration: none;
+        position: relative;
+        left: 280px;
+        bottom: 430px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .eight>.apple4{
+        font-size: 40px;
+        color: black;
+        position: relative;
+        left: 277px;
+        bottom: 320px;
+    }
+    .nine{
+        width: 50%;
+        height: 550px;
+        background-color: white;
+        position: relative;
+        bottom: 1737px;
+        left: 760px;
+        background-color: white;
+        cursor: pointer;
+        }
+        .nine>img{
+            position: relative;
+            left: 160px;
+            top: 190px;
+        }
+        .pe{
+            font-size: 40px;
+            position: relative;
+            left: 320px;
+            bottom: 400px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+    
+        }
+        .pr{
+            text-align: center;
+            position: relative;
+            left: 255px;
+            bottom: 430px;
+            font-size: 18px;
+            width: 250px;
+            color: black;
+        
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .a17{
+            font-size: 15px;
+            text-decoration: none;
+            position: relative;
+            left: 270px;
+            bottom: 430px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .a18{
+            font-size: 15px;
+            text-decoration: none;
+            position: relative;
+            left: 280px;
+            bottom: 430px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .nine>.apple5{
+            font-size: 40px;
+            color: black;
+            position: relative;
+            left: 277px;
+            bottom: 320px;
+        }
+        .ten{
+            background-color: whitesmoke;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 400px;
+            position: relative;
+            bottom: 1750px;
+            cursor: pointer;
+        }
+        .ten>.pt{
+            width: 900px;
+            margin: 0 auto;
+            color: darkgrey;
+        }
